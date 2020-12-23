@@ -146,7 +146,6 @@
         ganoJuego() {
             swal('Ganaste', 'Felicidades, ganaste el juego', 'success',{
                 buttons: false,
-                timer:1500
             })
             .then((result) => {
                 setTimeout(this.inicializar, 800)
@@ -165,7 +164,6 @@
         perdioJuego() {
             swal('Perdiste', 'Vuelve a intentarlo', 'error', {
                 buttons: false,
-                timer:1500
             })
             .then((result) => {
                 this.eliminarEventosclick()
