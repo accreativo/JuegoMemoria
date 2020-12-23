@@ -156,7 +156,6 @@
         pasaNivel() {
             swal('Pasaste de nivel', 'Tu puntaje es '+this.puntos, 'success',{
                 buttons: false,
-                timer:1500
             })
             .then((result) => {
                 setTimeout(this.siguienteNivel, 1000)
